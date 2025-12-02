@@ -18,7 +18,8 @@
 		"lint": "biome format",
 		"format": "biome format --write",
 		"test": "vitest",
-		"day1": "ts-node ./src/day1/index.ts"
+		"day1": "ts-node ./src/day1/index.ts",
+		"day2": "ts-node ./src/day2/index.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.8",

@@ -15,5 +15,9 @@ jobs:
           node-version-file: '.nvmrc'
       - name: Install Dependencies
         run: npm ci
+      - name: Unit Tests
+        run: npm test
       - name: Day 1
         run: npm run day1
+      - name: Day 2
+        run: npm run day2
