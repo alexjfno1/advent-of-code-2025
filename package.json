@@ -18,7 +18,8 @@
 		"lint": "biome format",
 		"format": "biome format --write",
 		"test": "vitest",
-		"solutions": "ts-node ./src/run.ts"
+		"solutions:2024": "ts-node ./src/2024/run.ts",
+		"solutions:2025": "ts-node ./src/2025/run.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.8",

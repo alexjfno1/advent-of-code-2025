@@ -19,5 +19,7 @@ jobs:
         run: npm run lint
       - name: Unit Tests
         run: npm test
-      - name: Run Solutions
-        run: npm run solutions
+      - name: Run Solutions 2024
+        run: npm run solutions:2024
+      - name: Run Solutions 2025
+        run: npm run solutions:2025

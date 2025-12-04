@@ -1,7 +1,7 @@
 import * as path from "path";
-import { loadFile, logResult } from "./utils";
+import { loadFile, logResult } from "../utils";
 
-const NUMBER_OF_DAYS = 4;
+const NUMBER_OF_DAYS = 1;
 
 const runDay = async (day: number) => {
 	const parts = await import(`./day${day}`);
