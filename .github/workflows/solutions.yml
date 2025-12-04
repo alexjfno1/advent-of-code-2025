@@ -25,3 +25,5 @@ jobs:
         run: npm run day2
       - name: Day 3
         run: npm run day3
+      - name: Day 4
+        run: npm run day4
