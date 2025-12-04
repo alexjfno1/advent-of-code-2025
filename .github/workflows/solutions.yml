@@ -19,11 +19,5 @@ jobs:
         run: npm run lint
       - name: Unit Tests
         run: npm test
-      - name: Day 1
-        run: npm run day1
-      - name: Day 2
-        run: npm run day2
-      - name: Day 3
-        run: npm run day3
-      - name: Day 4
-        run: npm run day4
+      - name: Run Solutions
+        run: npm run solutions
